@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import '../App.css';
 import Carousel from 'react-bootstrap/Carousel';
-import Aambari from '../images/Aambari.jpg'
+import Aambari from '../images/Aambari.jpg';
+import Aambari1 from '../images/Aambari1.jpg';
+import Aambari2 from '../images/Aambari2.jpg';
 
 export default class slider extends Component {
   render() {
@@ -21,7 +23,7 @@ export default class slider extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://placekitten.com/300/300"
+      src={Aambari1}
       alt="Third slide"
     />
 
@@ -33,7 +35,7 @@ export default class slider extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://placekitten.com/400/300"
+      src={Aambari2}
       alt="Third slide"
     />
 

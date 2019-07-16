@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Navbar from 'react-bootstrap/Navbar'
-import {NavDropdown, Nav, Form, FormControl,Button} from 'react-bootstrap';
+import {Form, FormControl,Button, Nav} from 'react-bootstrap';
 //import Product from './Product';
 import Slider from './slider';
-import Title from './Title';
+
 
 
 export default class ProductList extends Component {
